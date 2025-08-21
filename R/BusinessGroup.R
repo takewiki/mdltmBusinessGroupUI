@@ -63,7 +63,7 @@ BusinessGroupUI_right <- function() {
   res <- tagList(
 
     shiny::actionButton(inputId = 'btn_BusinessGroup_view' , label = '预览文件数据'),
-    shiny::actionButton(inputId = 'btn_BusinessGroup_update' , label = '更新物料库存数据')
+    shiny::actionButton(inputId = 'btn_BusinessGroup_update' , label = '更新')
   )
   return(res)
 
